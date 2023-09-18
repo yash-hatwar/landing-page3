@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+body::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0,0, 0.5);
+    z-index: -1;
+}
+header{   
+    display: flex;
+    align-items:center ;
+    padding: 25px 4%;
+    /* justify-content: center; */
+}
+.logo{
+    padding-right:25% ;
+}
+.butt{
+    position: absolute;
+    right: 4%;
+}
+div ul{
+    display: flex;
+    align-items: center;
+    /* padding: 15px 10%; */
+    /* justify-content: space-around; */
+}
+div ul li{
+    list-style: none;
+    margin-right: 25%;
+    color: rgb(239, 207, 80);
+    font-weight: 900;
+}
+div ul li:hover{
+    color: rgb(255, 38, 0);
+    cursor: pointer;
+}
+
+header button{
+    padding: 10px 30px;
+    background-color:crimson;
+    color: white;
+    border: none;
+    font-weight: 900;
+}
+header button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: crimson;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main div{
+    font-size: 35px;
+    color: rgb(244, 213, 86);
+    text-align: center;
+}
+main div button{
+    padding: 10px 4%;
+font-size: medium;
+font-weight: 600;
+border: none;
+color: white;
+background-color: crimson;
+}
+main div button:hover{
+    color: crimson;
+    background-color: white;
+    cursor: pointer;
+}
+.scroll img{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    margin: 2%;
+}
